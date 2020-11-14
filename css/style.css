@@ -5,6 +5,29 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background: #FFECC9;
+}
+
+span, h1, h2, h4 {
+  color: #FF494D;
+}
+
+a {
+  text-decoration: none;
+  color: #FF494D;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #FF494D;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  color: #FF494D;
 }
 
 /* header */
@@ -36,7 +59,6 @@ body {
   width: 680px;
   height: 23px;
   text-align: center;
-  color: #FF494D;
 }
 
 .menu-item {
@@ -60,7 +82,6 @@ body {
 .call-header {
   font-size: 20px;
   line-height: 23px;
-  color: #FF494D;
   letter-spacing: .3px;
 }
 
@@ -74,9 +95,7 @@ section {
 /* preview-section */
 .preview-section {
   position: relative;
-  height: 760px;
   margin-bottom: 80px;
-  color: #FF494D;
 }
 
 .preview-text-wrapper {
@@ -112,9 +131,13 @@ section {
 
 .call-preview {
   background: #FF494D;
-  color: #FFFFFF;
   font-size: 20px;
   line-height: 23px;
+  margin-bottom: 160px;
+}
+
+.call-preview span {
+  color: #FFFFFF;
 }
 
 .preview-image {
@@ -151,16 +174,11 @@ section {
 
 /* promo-section */
 .promo-section {
-  height: 1040px;
+  margin-bottom: 100px;
 }
 
 .promo-title {
   padding-top: 37px;
-  font-weight: 500;
-  font-size: 64px;
-  line-height: 80px;
-  text-align: center;
-  color: #FF494D;
   margin-bottom: 55px;
 }
 
@@ -172,7 +190,6 @@ section {
 
 .ingredient-item {
   position: absolute;
-  color: #FF494D;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -200,4 +217,313 @@ section {
   right: 0;
   left: 0;
   margin: auto
+}
+
+/* suitable section */
+.suitable-section {
+  margin-bottom: 92px;
+}
+
+.suitable-title-wrapper {
+  display: flex;
+  justify-content: center; 
+  margin-bottom: 72px;
+}
+
+.suitable-section-title {
+  display: flex;
+}
+
+.suitable-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.suitable-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.suitable-item * {
+  margin-bottom: 15px;
+}
+
+.suitable-item img {
+  height: 90px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.suitable-item h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.suitable-item span {
+  font-size: 24px;
+  line-height: 100%;
+  width: 220px;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+/* stages section */
+.order-stages-section {
+  margin-bottom: 92px;
+}
+
+.stages-title {
+  margin-bottom: 82px;
+}
+
+.stages-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.stage-item {
+  position: relative;
+}
+
+.stage-item > * {
+  margin-bottom: 13px;
+}
+
+.stage-item h4 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 125.19%;
+}
+
+.stage-item span {
+  display: block;
+  font-size: 24px;
+  line-height: 100%;
+  width: 290px;
+  word-wrap: break-word;
+}
+
+.stage-item hr {
+  position: absolute;
+  width: 274px;
+  top: 38px;
+  left: 80px;
+  background: #FF494D;  
+  border: 1px solid #FF494D;
+}
+
+/* catalog section */
+.catalog-section {
+  width: 80%;
+  margin-bottom: 116px;
+}
+
+.catalog-section-title {
+  margin-bottom: 20px;
+}
+
+.catalog-categories-wrapper {
+  width: 694px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 46px auto;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.category-item:not(.active) {
+  opacity: .5
+}
+
+.sweet-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 69px;
+}
+
+.sweet-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+}
+
+.sweet-item span {
+  text-align: center;
+  display: flex;
+}
+
+.sweet-item img{
+  height: 191px;
+  width: 240px;
+  object-fit: contain;
+  margin-bottom: 53px;
+}
+
+.sweet-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 17px;
+  height: 24px;
+}
+
+.sweet-description {
+  height: 104px;
+  font-size: 24px;
+  line-height: 120%;
+  margin-bottom: 50px;
+}
+
+.sweet-cost {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 30px;
+  margin-bottom: 21px;
+  height: 30px;
+}
+
+.sweet-button {
+  background: #FF494D;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.show-catalog {
+  display: block;
+  width: 300px;
+  height: 70px;
+  color: #FF494D;
+  margin: 0 auto 0 auto;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+/* order section */
+.order-section {
+  positioN: relative;
+  width: 820px;
+  margin: 0 auto 348px auto;
+}
+
+.order-section-title {
+  margin-bottom: 39px;
+}
+
+.order-section span {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  line-height: 120%;
+  margin-bottom: 131px;
+}
+
+.call-back-form {
+  width: 460px;
+  display: flex;
+  margin-left: 299px;
+  flex-direction: column;
+  font-size: 24px;
+  line-height: 120%;
+  color: #FF494D;
+}
+
+.call-back-form label {
+  margin-bottom: 14px;
+}
+
+.input-button {
+  border-radius: 30px;
+  height: 60px;
+  border: none;
+  background: #FF494D;
+  padding: 0 27px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF; 
+}
+
+.name-input, .number-input {
+  opacity: .25;
+}
+
+.name-input:focus, .number-input:focus {
+  opacity: 1;
+}
+
+.name-input {
+  margin-bottom: 38px;
+}
+
+.number-input {
+  margin-bottom: 60px;
+}
+
+.call-back-form input[type=submit] {
+  width: 300px;
+  height: 70px;
+  border-radius: 58px;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0;
+}
+
+.decorative-cake {
+  position: absolute;
+  top: 184px;
+  right: 100%;
+}
+
+.decorative-donuts {
+  position: absolute;
+  bottom: -231px;
+  left: 958px;
+}
+
+/* location section */
+.location-section {
+  padding-bottom: 210px;
+}
+
+.location-section-title {
+  text-align: left;
+  width: 600px;
+  word-wrap: break-word;
+  margin-bottom: 63px;
+}
+
+.locations-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 44px;
+}
+
+.location-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 39px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.location-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.location-item img {
+  margin-right: 30px;
+}
+
+.location-section-call {
+  width: 300px;
+  height: 70px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
 }
