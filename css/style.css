@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* header */
+.header {
+  display: flex;
+  max-width: 1420px;
+  height: 100px;
+  margin: auto;
+}
+
+.header span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo {
+  margin: 8px 180px 0 0;
+}
+
+.navigation-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0;
+  margin: 38px 180px 38px 0;
+  font-style: normal;
+  font-weight: 300;
+  width: 680px;
+  height: 23px;
+  text-align: center;
+  color: #FF494D;
+}
+
+.menu-item {
+  font-size: 20px;
+  padding: 0 6px;
+}
+
+.menu-item:first-of-type {
+  padding: 0 12px
+}
+
+.call-button {
+  margin-top: 20px;
+  width: 219px;
+  height: 60px;
+  border: 2px solid #FF494D;
+  border-radius: 58px;
+  background: none;
+}
+
+.call-header {
+  font-size: 20px;
+  line-height: 23px;
+  color: #FF494D;
+  letter-spacing: .3px;
+}
+
+
+/* sections */
+section {
+  max-width: 1420px;
+  margin: auto;
+}
+
+/* preview-section */
+.preview-section {
+  position: relative;
+  height: 760px;
+  margin-bottom: 80px;
+  color: #FF494D;
+}
+
+.preview-text-wrapper {
+  padding-top: 119px;
+}
+
+.preview-title {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  margin: 0 0 36px -4px;
+  letter-spacing: 0.03em;
+}
+
+.preview-description {
+  font-size: 32px;
+  line-height: 37px;
+  margin: 0 0 42px -1px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.023em;
+}
+
+.preview-ads {
+  margin: 0 0 40px -1px;
+  padding-top: 9px;
+  display: flex;
+  font-size: 24px;
+  line-height: 28px;
+  width: 507px;
+  word-wrap: break-word;
+}
+
+.call-preview {
+  background: #FF494D;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.preview-image {
+  position: absolute;
+  right: 0;
+  top: 137px;
+}
+
+.more-button-container {
+  position: absolute;
+  bottom: 0;
+  left: 0; 
+  right: 0;
+  margin: 0 auto;
+  height: 53px;
+  width: 105px;
+}
+
+.more-button-container::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  background: url("../images/maximize-icon.svg") no-repeat;
+  background-position: bottom 30%  center;
+  width: 100%;
+  height: 100%;
+}
+
+.side-image {
+  position: absolute;
+  left: 0;
+  top: 716px;
+}
+
+/* promo-section */
+.promo-section {
+  height: 1040px;
+}
+
+.promo-title {
+  padding-top: 37px;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  color: #FF494D;
+  margin-bottom: 55px;
+}
+
+.ingredients-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: 783px;
+}
+
+.ingredient-item {
+  position: absolute;
+  color: #FF494D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+}
+
+.ingredient-text {
+  display: block;
+  width: 250px;
+  word-wrap: break-word;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.ingredients-column {
+  position: relative;
+}
+
+.cake {
+  position: absolute;
+  top: 115px;
+  right: 0;
+  left: 0;
+  margin: auto
+}
