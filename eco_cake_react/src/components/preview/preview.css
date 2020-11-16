@@ -1,0 +1,138 @@
+/* preview section */
+.preview-section {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.preview-text-wrapper {
+  padding-top: 119px;
+}
+
+.preview-title {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  margin: 0 0 36px 0;
+  letter-spacing: 0.03em;
+}
+
+.preview-description {
+  font-size: 32px;
+  line-height: 37px;
+  margin: 0 0 42px 0;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.023em;
+}
+
+.preview-ads {
+  margin: 0 0 40px 0;
+  padding-top: 9px;
+  display: flex;
+  font-size: 24px;
+  line-height: 28px;
+  width: 507px;
+  word-wrap: break-word;
+}
+
+.call-preview {
+  background: #FF494D;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 160px;
+}
+
+.call-preview span {
+  color: #FFFFFF;
+}
+
+.preview-image {
+  position: absolute;
+  right: 0;
+  top: 137px;
+}
+
+.more-button-container {
+  position: relative;
+  margin: 0 auto;
+  height: 53px;
+  width: 105px;
+}
+
+.more-button-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.more-button-container::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  background: url("./maximize.svg") no-repeat;
+  background-position: bottom 25% center;
+  width: 100%;
+  height: 100%;
+}
+
+.side-image {
+  position: absolute;
+  left: 0;
+  top: 716px;
+}
+
+.col-1 {
+  display: flex;
+}
+
+@media(max-width: 1420px) {
+	.preview-section {
+		width: 80%;
+	}
+
+	.preview-image {
+  	width: 50%;
+  }
+  
+  .preview-title {
+    font-size: 64px;
+    line-height: 50px;
+  }
+
+  .preview-description {
+    font-size: 32px;
+    line-height: 15px;
+  }
+
+  .preview-ads {
+    font-size: 20px;
+    line-height: 28px;
+    width: 450px;
+  }
+
+  .more-button-container {
+    height: 43px;
+    width: 95px; 
+  }
+
+  .call-preview {
+    width: 169px;
+    height: 50px;
+  }
+}
+
+@media(max-width: 1240px) {
+  .preview-section {
+		width: 80%;
+  }
+  
+  .preview-title {
+    font-size: 1.5em;
+    line-height: 25px;
+  }
+
+  .preview-description {
+    font-size: 1em;
+    line-height: 10px;
+  } 
+}

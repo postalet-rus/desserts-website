@@ -1,0 +1,50 @@
+/* suitables section */
+.suitable-section {
+  margin-bottom: 92px;
+}
+
+.suitable-title-wrapper {
+  display: flex;
+  justify-content: center; 
+  margin-bottom: 72px;
+}
+
+.suitable-section-title {
+  display: flex;
+}
+
+.suitable-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.suitable-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.suitable-item * {
+  margin-bottom: 15px;
+}
+
+.suitable-item img {
+  height: 90px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.suitable-item h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.suitable-item span {
+  font-size: 24px;
+  line-height: 100%;
+  width: 220px;
+  word-wrap: break-word;
+  text-align: center;
+}

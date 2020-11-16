@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #FFECC9;
+}
+
+span, h1, h2, h4 {
+  color: #FF494D;
+}
+
+a {
+  text-decoration: none;
+  color: #FF494D;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #FF494D;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  color: #FF494D;
+}
+
+section {
+  max-width: 1420px;
+  margin: auto;
+}
