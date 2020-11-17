@@ -1,0 +1,41 @@
+/* location section */
+.location-section {
+  padding-bottom: 210px;
+}
+
+.location-section-title {
+  text-align: left;
+  width: 600px;
+  word-wrap: break-word;
+  margin-bottom: 63px;
+}
+
+.locations-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 44px;
+}
+
+.location-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 39px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.location-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.location-item img {
+  margin-right: 30px;
+}
+
+.location-section-call {
+  width: 300px;
+  height: 70px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+}

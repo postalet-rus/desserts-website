@@ -6,6 +6,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background: #FFECC9;
+  overflow-x: hidden;
 }
 
 span, h1, h2, h4 {
