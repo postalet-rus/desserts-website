@@ -1,5 +1,6 @@
 /* location section */
 .location-section {
+  position: relative;
   padding-bottom: 210px;
 }
 
@@ -38,4 +39,11 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 23px;
+}
+
+.location-pie {
+  position: absolute; 
+  width: 45%;
+  top: 71px;
+  right: 0;
 }

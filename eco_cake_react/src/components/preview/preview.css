@@ -35,15 +35,18 @@
   word-wrap: break-word;
 }
 
-.call-preview {
+.preview-section .call-button {
   background: #FF494D;
+}
+
+.call-preview {
   font-size: 20px;
   line-height: 23px;
   margin-bottom: 160px;
 }
 
 .call-preview span {
-  color: #FFFFFF;
+  color: #FFFFFF
 }
 
 .preview-image {
@@ -83,56 +86,4 @@
 
 .col-1 {
   display: flex;
-}
-
-@media(max-width: 1420px) {
-	.preview-section {
-		width: 80%;
-	}
-
-	.preview-image {
-  	width: 50%;
-  }
-  
-  .preview-title {
-    font-size: 64px;
-    line-height: 50px;
-  }
-
-  .preview-description {
-    font-size: 32px;
-    line-height: 15px;
-  }
-
-  .preview-ads {
-    font-size: 20px;
-    line-height: 28px;
-    width: 450px;
-  }
-
-  .more-button-container {
-    height: 43px;
-    width: 95px; 
-  }
-
-  .call-preview {
-    width: 169px;
-    height: 50px;
-  }
-}
-
-@media(max-width: 1240px) {
-  .preview-section {
-		width: 80%;
-  }
-  
-  .preview-title {
-    font-size: 1.5em;
-    line-height: 25px;
-  }
-
-  .preview-description {
-    font-size: 1em;
-    line-height: 10px;
-  } 
 }

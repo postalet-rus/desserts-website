@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import './Promo.css';
 
 function getImages() {
@@ -14,8 +14,10 @@ const images = getImages();
 const [ berries, cake, cocoa, dates, eggs, flour, honey, milk, nuts] = images;
 
 export default function Promo() {
+	const promoRef = useRef(null);
+
 	return (
-		<section className="promo-section">
+		<section id="sPrm" className="promo-section" ref={promoRef}>
 			<h3 className="promo-title">Секрет наших тортов<br /> в натуральных ингрeдиентах</h3>
 			<div className="ingredients-wrapper">
 				<div className="ingredients-column col-1">

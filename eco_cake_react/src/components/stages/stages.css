@@ -44,20 +44,3 @@
   background: #FF494D;  
   border: 1px solid #FF494D;
 }
-
-@media(max-width: 1420px) {
-	.stage-item hr {
-		width: 250px;
-	}
-
-	.stage-item h4 {
-		font-size: 20px;
-	}
-
-	.stage-item span {
-			font-size: 20px;
-			width: 250px;
-			word-wrap: break-word;
-	}
-}
-

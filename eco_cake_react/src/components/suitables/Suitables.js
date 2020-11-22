@@ -15,7 +15,7 @@ const [diabetes, sport, vegeterians] = getImages();
 
 export default function Suitables() {
 	return (
-		<section className="suitable-section">
+		<section id="sStbls" className="suitable-section">
 			<div className="suitable-title-wrapper">
 				<h3 className="suitable-section-title">Наши десерты подходят</h3>
 			</div>

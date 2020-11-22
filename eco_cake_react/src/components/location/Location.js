@@ -4,30 +4,30 @@ import geo from './geo.svg'; import instagram from './instagram.svg';
 import mail from './mail.svg'; import phone from './phone.svg';
 import pie from './pie.png';
 
-export default function Location() {
+export default function Location(props) {
 	return (
-		<section class="location-section">
-			<h3 class="location-section-title">Вы можете забрать свой заказ лично</h3>
-			<div class="locations-wrapper">
-				<div class="location-item">
+		<section id="sLctn" className="location-section">
+			<h3 className="location-section-title">Вы можете забрать свой заказ лично</h3>
+			<div className="locations-wrapper">
+				<div className="location-item">
 					<img src={geo} alt="Геолокация" />
-					<span class="location-description">г. Новосибирск, ул. Ленина, 54</span>
+					<span className="location-description">г. Новосибирск, ул. Ленина, 54</span>
 				</div>
-				<div class="location-item">
+				<div className="location-item">
 					<img src={phone} alt="Телефон" />
-					<span class="location-description">+7 383 123-45-67</span>
+					<span className="location-description">+7 383 123-45-67</span>
 				</div>
-				<div class="location-item">
+				<div className="location-item">
 					<img src={instagram} alt="Почта" />
-					<span class="location-description">info@ecocake.ru</span>
+					<span className="location-description">info@ecocake.ru</span>
 				</div>
-				<div class="location-item">
+				<div className="location-item">
 					<img src={mail} alt="Инстаграмм" />
-					<span class="location-description">@ecocake</span>
+					<span className="location-description">@ecocake</span>
 				</div>
 			</div>
-			<img src={pie} alt="" />
-			<button class="input-button location-section-call">Связаться с нами</button>
+			<img className= "location-pie" src={pie} alt="" />
+			<button onClick={() => props.setStateFunction()} className="input-button location-section-call">Связаться с нами</button>
 		</section>
 	);
 }

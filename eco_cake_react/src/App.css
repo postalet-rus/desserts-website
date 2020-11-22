@@ -3,10 +3,16 @@
   padding: 0;
 }
 
+html {
+  margin-right: calc(-1 * (100vw - 100%));
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background: #FFECC9;
   overflow-x: hidden;
+  padding: calc(-1 * (100vw - 100%));
 }
 
 span, h1, h2, h4 {
@@ -33,5 +39,9 @@ h3 {
 
 section {
   max-width: 1420px;
-  margin: auto;
+  margin: 0 auto;
+}
+
+button, input {
+  cursor: pointer;
 }

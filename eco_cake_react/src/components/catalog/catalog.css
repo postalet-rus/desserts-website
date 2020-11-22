@@ -21,6 +21,15 @@
   opacity: .5
 }
 
+.category-item {
+  font-family: 'Roboto', sans-serif;
+	border: none;
+  background: none;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FF494D;
+}
+
 .sweet-container {
   display: flex;
   justify-content: space-around;
@@ -33,6 +42,7 @@
   justify-content: center;
   align-items: center;
   width: 370px;
+  animation: slide-from-left .5s normal ease-in-out
 }
 
 .sweet-item span {
@@ -87,3 +97,16 @@
   line-height: 23px;
 }
 
+.show-catalog:hover {
+  color: #FFFFFF;
+}
+
+@keyframes slide-from-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}

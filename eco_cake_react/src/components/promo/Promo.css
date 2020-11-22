@@ -20,7 +20,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 180px;
+	width: 180px;
+	opacity: .5;
+}
+
+.ingredient-item:hover {
+	opacity: 1;
+	cursor: default;
 }
 
 .ingredient-text {
@@ -50,23 +56,4 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-@media(max-width: 1420px) {
-	.promo-section {
-		width: 80%;
-		margin: 0 auto 100px auto;
-	}
-
-	.promo-section img {
-		width: 30%;
-	}
-
-	img.cake {
-		width: 100%;
-	}
-
-	.ingredients-wrapper {
-  	grid-template-columns: 33% 33% 33%;
-	}
 }
